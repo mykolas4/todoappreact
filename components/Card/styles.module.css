@@ -1,0 +1,36 @@
+.main {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+  }
+  .main:hover {
+    scale: 1.04;
+  }
+  
+  .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+background-color: green;
+
+  }
+  
+  .done {
+background-color: green;
+  }
+
+  .notDone {
+background-color: red;
+
+  }
+  .deleteBtn {
+    padding: 0.5px;
+    cursor: pointer;
+   background-color: red;
+  }
+
